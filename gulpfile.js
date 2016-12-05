@@ -19,7 +19,7 @@ var publicDir = './public'
 
 var filePath = {
         'css': path.join(publicDir, 'css/**/*.css'),
-        'scss': path.join(baseDir, 'sass/main.scss'),
+        'scss': path.join(baseDir, 'sass/**/*.scss'),
         'js': path.join(publicDir, 'js/**/*.js'),
         'view': path.join(baseDir, 'views/**/*.html')
     };
@@ -27,6 +27,12 @@ var filePath = {
 gulp.task('scss', function () {
   return gulp.src(path.join(baseDir,filePath.scss))
     .pipe(sass({
+        /**
+         * 嵌套输出方式 nested
+         * 展开输出方式 expanded 
+         * 紧凑输出方式 compact 
+         * 压缩输出方式 compressed
+         */
 		outputStyle: 'compressed'
     }).on('error', sass.logError))
     .pipe(autoprefixer({

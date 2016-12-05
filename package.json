@@ -1,9 +1,10 @@
 {
-  "name": "jiacha",
-  "version": "0.0.0",
+  "name": "JC前端开发",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "dev": "gulp dev",
+    "api": "gulp api"
   },
   "dependencies": {
     "body-parser": "~1.15.2",
@@ -23,5 +24,8 @@
     "jshint": "^2.9.4",
     "morgan": "~1.7.0",
     "rename": "^1.0.3"
+  },
+  "devDependencies": {
+    "mockjs": "^1.0.0"
   }
 }

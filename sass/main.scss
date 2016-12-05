@@ -1,7 +1,7 @@
-html{
-	background: #000;
-}
+@charset "UTF-8";
 
-body{
-	background: #aaa;
-}
+//引入类文件      注意*  引入顺序不可更改。
+@import "util/params";
+@import "util/mixins";
+@import "base/reset";
+@import "base/base";
