@@ -6,7 +6,7 @@
 
 1. 安装NodeJS
 1. 下载项目后,进去server目录,按Shift+鼠标右键 -> 在此处打开命令窗口 执行 `npm install` 命令
-1. 待所有node插件安装完成后，执行 `gulp dev`或者`npm dev` 命令
+1. 待所有node插件安装完成后，执行 `gulp dev` 命令
 1. 访问 `localhost:5000`  查看效果
 
 
