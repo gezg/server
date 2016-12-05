@@ -11,9 +11,9 @@
 
 
 ####目录结构
-* public		    `静态文件目录(js,css...)`
+* public		     `静态文件目录(js,css...)`
 * views         `视图html文件`
-* sass          `sass文件目录`
-* routes        `后台接口文件目录`
+* sass          `sass文件`
+* routes        `后台接口文件`
 * gulpfile.js 	`gulp配置文件`
 * package.json 	`nodejs 程序描述`
