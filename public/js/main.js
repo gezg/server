@@ -1,6 +1,6 @@
 var Main = Clazz.extend({
 	construct: function(option){
-		this.rootPath = 'http://localhost:5000/users/';
+		this.rootPath = 'http://localhost:5000/server/';
 		this.$ele = $(option.ele);
 		if(!this.$ele.length){
 			this.log('初始化容器id错误!!!');
