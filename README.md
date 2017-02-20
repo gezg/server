@@ -15,7 +15,7 @@
 ####使用说明
 > `gulp dev`			启动服务器,及编译sass,实时刷新浏览器 <br>
 > `gulp build`         	编译发布版本,(输出所有静态文件到public目录下)<br>
-> `gulp buildjsp`   	将views目录下所有文件更改成jsp文件并添加jsp文件头
+> `gulp buildjsp`   	将views目录下所有文件更改成jsp文件并添加jsp文件头<br>
 > `gulp buildmin`   	编译发布版本(css和js都是压缩 添加.min版本)<br>
 
 ####目录结构
